@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Serene Sips version1</title>
   </head>
@@ -25,10 +32,22 @@
 
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#our-menu">Menu</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#contact-us">Contact</a></li>
+        <li>
+          <a href="#home"><i class="fa-solid fa-house me-10"></i>Home</a>
+        </li>
+        <li>
+          <a href="#our-menu"><i class="fa-solid fa-bars me-10"></i>Menu</a>
+        </li>
+        <li>
+          <a href="#about-us"
+            ><i class="fa-solid fa-circle-info me-10"></i>About Us</a
+          >
+        </li>
+        <li>
+          <a href="#contact-us"
+            ><i class="fa-solid fa-envelope me-10"></i>Contact</a
+          >
+        </li>
       </ul>
     </nav>
 
@@ -91,7 +110,7 @@
         <h3>Delicious Snacks</h3>
         <div class="card">
           <img
-            src="Images/classic croissant.jpeg"
+            src="Images/classic crossiant.jpeg"
             alt="classic croissant"
             class="card-img-top"
           />
@@ -99,6 +118,7 @@
           <p>
             -Light, flaky, and buttery. <br />
             A timeless delight. <br />
+            Savoury and flaky. <br />
             <span class="price">$2.50</span>
           </p>
           <a href="#">Order</a>
@@ -188,19 +208,19 @@
       </p>
       <form action="">
         <div>
-          <label for="">Your Name :</label>
+          <label for="">Your Name </label>
           <input type="text" name="" id="" required />
         </div>
         <div>
-          <label for="">Your Email :</label>
-          <input type="text" name="" id="" required />
+          <label for="">Your Email </label>
+          <input type="email" name="" id="" required />
+        </div>
+        <div id="message">
+          <label for="">Your Message </label>
+          <textarea name="" id="" row="5" cols="5"></textarea>
         </div>
         <div>
-          <label for="">Your Message :</label>
-          <textarea name="" id=""></textarea>
-        </div>
-        <div>
-          <input type="submit" value="Send Message" />
+          <input class="btn" type="submit" value="Send Message" />
         </div>
       </form>
     </section>
@@ -208,7 +228,13 @@
     <!-- footer section -->
     <footer>
       <p>Copyright &copy; 2024. Serene Sips Cafe. All Rights Reserved.</p>
-      <a href="#home">To top &uarr;</a>
+      <a href="#home">&uarr;</a>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
