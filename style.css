@@ -121,7 +121,7 @@ nav ul li a {
   padding: 10px 0;
   text-decoration: none;
   display: block;
-  color: white;
+  color: #efbea5;
   border-radius: 10px;
 }
 
@@ -175,7 +175,7 @@ input[type="email"],
   height: 40px;
   line-height: 40px;
   text-decoration: none;
-  color: #fff;
+  color: #efbea5;
   border-radius: 8px;
   margin: 10px auto;
 }
